@@ -16,3 +16,11 @@ git add Php_basic
 etc: have file move_process.txt
 vscode command
 git add move_process.txt
+
+
+remove folder move 
+-have to remove folder after move anyfolder in local
+-have to fetch in github and update remove and move files or folder
+
+or move folder anything have to do in command git
+etc : git mv
