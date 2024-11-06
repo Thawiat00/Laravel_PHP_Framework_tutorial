@@ -1,0 +1,18 @@
+if want to use another folder in GitHub
+have to add in git command to another folder
+
+//check git first in vscode
+
+etc: have folder Php_basic
+vscode command
+git add Php_basic
+
+
+etc: have folder php_case_sensitivity
+vscode command
+git add Php_basic
+
+
+etc: have file move_process.txt
+vscode command
+git add move_process.txt
