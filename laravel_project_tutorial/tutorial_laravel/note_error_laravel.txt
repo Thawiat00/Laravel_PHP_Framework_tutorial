@@ -1,0 +1,24 @@
+ถ้ามีปัญหา cannot connect session
+ก็ลองให้เปิด xampp
+
+ถ้ามีปัญหาตัว notfound database ไม่เจอ 
+ก็ให้ สร้าง database ใน phpmyadmin (เริ่มต้นเป็นเวอร์ชั่น utf8mb4_general_ci)
+แล้วให้ไปเพิ่มใน .env ของโปรเจค laravel
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=before_laravel_tutorial 	//เพิ่มชื่อ database ตรงนี้
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+จากนั้นก็ mirgate data ระหว่างโปรเจค database เข้ากับ laravel
+ด้วยความคำสั่ง
+
+php artisan migrate
+
+
+จากนั้นก็ลอง public เซิฟเวอร์ ทดสอบดู
+
+php -S localhost:8000 -t public
